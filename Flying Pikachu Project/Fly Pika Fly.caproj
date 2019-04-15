@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Fly Pika Fly</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>ztl8st6d00fa</unique-id>
+    <saved-with-version>17800</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>400</width>
+        <height>500</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Orientations">Portrait</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D web</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder expanded="1">
+        <object-type name="Bird" sid="7655953109634694">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="5178987554423825">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="9" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="172571221145421" speed="5">
+                    <frame duration="1" hotspotX="0.595745" hotspotY="0.696552" original-source="C:\Users\Sage\Desktop\Articuno\frame_000.gif">
+                        <collision-poly>
+                            <point x="0.165957" y="0.827586" />
+                            <point x="0.67234" y="0.962069" />
+                            <point x="0.842553" y="0.881034" />
+                            <point x="0.965958" y="0.668965" />
+                            <point x="0.634042" y="0.0413789" />
+                            <point x="0.506383" y="0.0965514" />
+                            <point x="0.438298" y="0.324138" />
+                            <point x="0.297872" y="0.586207" />
+                            <point x="0" y="0.779311" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.515244" hotspotY="0.526316" original-source="C:\Users\Sage\Desktop\Articuno\frame_001.gif">
+                        <collision-poly>
+                            <point x="0.732473" y="0.780103" />
+                            <point x="0.611781" y="0.825481" />
+                            <point x="0.262431" y="0.734018" />
+                            <point x="0.14773" y="0.688062" />
+                            <point x="0.340762" y="0.538511" />
+                            <point x="0.518916" y="0.257895" />
+                            <point x="0.654385" y="0.141207" />
+                            <point x="0.856266" y="0.612965" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Sage\Desktop\Articuno\frame_002.gif">
+                        <collision-poly>
+                            <point x="0.862805" y="0.552631" />
+                            <point x="0.746951" y="0.742105" />
+                            <point x="0.621951" y="0.768421" />
+                            <point x="0.192073" y="0.668421" />
+                            <point x="0.304878" y="0.5" />
+                            <point x="0.295732" y="0.510526" />
+                            <point x="0.64939" y="0.3" />
+                            <point x="0.771341" y="0.394737" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Sage\Desktop\Articuno\frame_003.gif">
+                        <collision-poly>
+                            <point x="0.85061" y="0.5" />
+                            <point x="0.792683" y="0.642105" />
+                            <point x="0.640244" y="0.763158" />
+                            <point x="0.204268" y="0.647368" />
+                            <point x="0.277439" y="0.5" />
+                            <point x="0.286585" y="0.494737" />
+                            <point x="0.5" y="0.542105" />
+                            <point x="0.777439" y="0.384211" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Sage\Desktop\Articuno\frame_004.gif">
+                        <collision-poly>
+                            <point x="0.859756" y="0.410526" />
+                            <point x="0.734756" y="0.58421" />
+                            <point x="0.797256" y="0.821052" />
+                            <point x="0.542683" y="0.978947" />
+                            <point x="0.448171" y="0.771052" />
+                            <point x="0.490091" y="0.576974" />
+                            <point x="0.370427" y="0.425" />
+                            <point x="0.283537" y="0.510526" />
+                            <point x="0.170732" y="0.5" />
+                            <point x="0.329268" y="0.336842" />
+                            <point x="0.695122" y="0.378947" />
+                            <point x="0.77439" y="0.252632" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Sage\Desktop\Articuno\frame_005.gif">
+                        <collision-poly>
+                            <point x="0.875" y="0.5" />
+                            <point x="0.798781" y="0.652632" />
+                            <point x="0.655488" y="0.752631" />
+                            <point x="0.213415" y="0.631579" />
+                            <point x="0.286585" y="0.494737" />
+                            <point x="0.5" y="0.515789" />
+                            <point x="0.789634" y="0.363158" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Sage\Desktop\Articuno\frame_006.gif">
+                        <collision-poly>
+                            <point x="0.765244" y="0.694737" />
+                            <point x="0.634146" y="0.78421" />
+                            <point x="0.426829" y="0.663158" />
+                            <point x="0.155488" y="0.642105" />
+                            <point x="0.307927" y="0.51579" />
+                            <point x="0.484756" y="0.468421" />
+                            <point x="0.658536" y="0.326316" />
+                            <point x="0.856707" y="0.547368" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Sage\Desktop\Articuno\frame_007.gif">
+                        <collision-poly>
+                            <point x="0.762195" y="0.805263" />
+                            <point x="0.625" y="0.889474" />
+                            <point x="0.5" y="0.8" />
+                            <point x="0.140244" y="0.757895" />
+                            <point x="0.362805" y="0.578947" />
+                            <point x="0.469512" y="0.468421" />
+                            <point x="0.631097" y="0.226316" />
+                            <point x="0.844512" y="0.657895" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Sage\Desktop\Articuno\frame_008.gif">
+                        <collision-poly>
+                            <point x="0.771341" y="0.552631" />
+                            <point x="0.832317" y="0.710526" />
+                            <point x="0.609756" y="0.931579" />
+                            <point x="0.134146" y="0.773684" />
+                            <point x="0.295732" y="0.627632" />
+                            <point x="0.492378" y="0.717763" />
+                            <point x="0.429878" y="0.439474" />
+                            <point x="0.484756" y="0.273684" />
+                            <point x="0.564024" y="0.242105" />
+                            <point x="0.670732" y="0.442105" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ButtonPlay" sid="2665942910247507">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="TiledBackground" sid="7074001819537027">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="TiledBackground2" sid="2552280505893899">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="Background" sid="953656317085853">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5403016070098888" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BottomPipe" sid="9618256118790168">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Scored" sid="594544762936064" type="boolean" />
+            </instance-variables>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7052596752156929" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.114286" y="0.013245" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9" y="0.0115894" />
+                            <point x="0.9" y="0.988411" />
+                            <point x="0.5" y="1" />
+                            <point x="0.114286" y="0.986755" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TopPipe" sid="2967184419507498">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="290853698256507" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.114286" y="0.013245" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9" y="0.0115894" />
+                            <point x="0.9" y="0.988411" />
+                            <point x="0.5" y="1" />
+                            <point x="0.114286" y="0.986755" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ScoreText" sid="8463788785676717">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite" sid="3453108487902866">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8147977195382181" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ButtonViewTutorial" sid="9906374471482009">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Browser" sid="669069303560179">
+            <plugin id="Browser" />
+        </object-type>
+        <object-type name="Touch" sid="486488503983799">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="Title" sid="8863349115433933">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite2" sid="2375377857101416">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9922599295405594" speed="5">
+                    <frame duration="1" hotspotX="-0.495739" hotspotY="0.530822" original-source="C:\Users\Sage\Desktop\how-to-draw-articuno_1_000000005130_5.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text" sid="5292236849056232">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="HighScoreValue" sid="6047844853227062">
+            <plugin id="Text" />
+            <instance-variables>
+                <instance-variable name="HighScoreValue" sid="5722291493436464" type="number" />
+                <instance-variable name="Variable1" sid="8062526265354756" type="string" />
+            </instance-variables>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder expanded="1">
+        <layout>Start.xml</layout>
+        <layout>Game.xml</layout>
+    </layout-folder>
+    <event-folder expanded="1">
+        <event-sheet>Game events.xml</event-sheet>
+        <event-sheet>Start events.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Browser" uid="11" />
+        <global-instance type="Touch" uid="12">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder expanded="1" />
+    <music-folder expanded="1" />
+    <files-folder expanded="0">
+        <file-folder expanded="0" name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
